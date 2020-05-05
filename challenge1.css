@@ -1,0 +1,31 @@
+body {
+    background-image: url("./bg.jpg");
+    background-color: #000000;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: cover; Resize the background image to cover the entire container */
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+* {
+    color: white;
+    text-align: center;
+}
+input[type="text"] {
+    text-align: left;
+    color: black;
+}
+
+input[type="submit"] {
+    background: white;
+    width: 200px; 
+    height: 30px; 
+    border: 0;
+    text-align: center;
+    color: black;
+}
+
+.button {
+    border-radius: 8px;
+}

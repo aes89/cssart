@@ -1,0 +1,14 @@
+* {
+    background: rgb(175, 175, 247)
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    background: black;
+    border: solid 4px white;
+    margin-top: 10%;
+    width: 600px;
+    height: 420px;
+}
