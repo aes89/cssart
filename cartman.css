@@ -6,9 +6,151 @@
     position: relative;
     margin: auto;
     display: block;
-    background: black;
+    background: red;
     border: solid 4px white;
     margin-top: 10%;
     width: 600px;
     height: 420px;
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 58%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.eye-left {
+    position: absolute;
+    background: white;
+    transform: rotate(30deg);
+    width: 23%;
+    height: 33%;
+    top: 26%;
+    left: 25%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.eye-right {
+    position: absolute;
+    background: white;
+    transform: rotate(-30deg);
+    width: 23%;
+    height: 33%;
+    top: 25%;
+    right: 26%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.pupil {
+    position: absolute;
+    background: black;
+    width: 23%;
+    height: 33%;
+    top: 25%;
+    right: 26%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.chin {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: rgb(250, 234, 199);
+    border-bottom-color: black;
+    z-index: 2;
+}
+
+.chin2 {
+    position: absolute;
+    top: 83%;
+    left: 43%;
+    width: 20%;
+    height: 8%;
+    background: rgb(250, 234, 199);
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: rgb(250, 234, 199);
+    border-bottom-color: black;
+    z-index: 2;
+}
+
+.mouth {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0 0, 78% 46%, 100% 0);
+    background: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    top: 75%;
+    left: 30%;
+    z-index: 2;
+}
+
+.mouth-outline {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0 0, 75% 40%, 98% 0);
+    background: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    top: 75%;
+    left: 30%;
+    z-index: 3;
+}
+
+.tooth1 {
+    position: absolute;
+    top: 0;
+    left: 6%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.tooth2 {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.tooth3 {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
+}
+
+.tooth4 {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 23%;
+    height: 15%;
+    background: white;
+    z-index: 4;
 }
