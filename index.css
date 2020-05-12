@@ -23,24 +23,22 @@ nav {
   position: fixed;
   color: #fcd971;
   background: rgba(0, 110, 255, 0.774);
-  width: 3rem;
-  height: 50vh;
+  width: 10%;
+  height: 45vh;
   -webkit-transition: width 600ms ease;
   transition: width 600ms ease;
   right: 0px;
+  top: 40vh;
 }
 
 .navbar-nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
