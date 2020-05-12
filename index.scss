@@ -1,0 +1,44 @@
+body {
+    background: rgb(246,201,71);
+    background-image: linear-gradient(to bottom right, rgb(252, 217, 113) 40%, rgb(250, 243, 164));  
+    background-attachment: fixed;
+} 
+nav {
+    position: absolute;
+    color: rgb(252, 217, 113);
+    background: rgba(0, 110, 255, 0.774);
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    align-content: center;
+    right: 10%;
+    left: 80%
+    bottom: 10%;
+}
+footer {
+    position: fixed;
+    bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgba(0, 110, 255, 0.774);
+    color: white;
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+  }
+
+  .socials_images {
+      height: 60%;
+      width: 60%;   
+      padding-top: 5%;
+      margin: 1%;
+  }
+
+  .socials {
+      margin-left: 20%; 
+      margin-right: 20%; 
+  }
+
+  
