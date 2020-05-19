@@ -11,7 +11,7 @@
 header {
   position: absolute;
   margin-left: 5%;
-  top: 20%;
+  top: 15%;
   width: 70%;
 }
 
@@ -45,9 +45,14 @@ header {
           animation-duration: 5s;
 }
 
-h1, h2, h5 {
+h1, h2 {
   padding: 5%;
   margin: 0;
+}
+
+h5 {
+  padding-top: 0;
+  padding-left: 5%;
 }
 
 body {
@@ -65,7 +70,7 @@ nav {
   position: fixed;
   color: #fcd971;
   background: rgba(0, 110, 255, 0.774);
-  width: 10%;
+  width: 13%;
   height: 45vh;
   -webkit-transition: width 600ms ease;
   transition: width 600ms ease;
@@ -97,21 +102,22 @@ footer {
   margin-left: 15%;
   margin-right: 15%;
   width: 70%;
+  height: 7%;
   background-color: rgba(0, 110, 255, 0.774);
   color: white;
   text-align: center;
   display: -ms-inline-grid;
   display: inline-grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
 .socials_images {
-  height: 10px;
-  width: 10px;
-  padding-top: 5%;
-  margin: 1%;
+  position: relative;
+  height: 40%;
+  width: 40%;
+  padding-top: 0;
 }
 /*# sourceMappingURL=index.css.map */
