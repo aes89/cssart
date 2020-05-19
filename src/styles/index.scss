@@ -8,6 +8,29 @@
     --transition-speed: 600ms;
   }
 
+  header {
+      position: absolute;
+      margin-left: 5%;
+      top: 10%;
+  }
+  @keyframes headerline {
+    0%   {width: 0%;}
+    // 25%  {width: ;}
+    // 50%  {width: ;}
+    100% {width: 150%;}
+  }
+
+  .headerline {
+    position: absolute;
+    background-color: black;
+    width: 150%;
+    height: 1px;
+    left: -10%;
+    animation-name: headerline;
+    animation-duration: 5s;
+
+}
+
 body {
     background: rgb(246,201,71);
     background-image: linear-gradient(to bottom right, rgb(252, 217, 113) 40%, rgb(250, 243, 164));  
@@ -58,11 +81,10 @@ footer {
   }
 
   .socials_images {
-      height: 60%;
-      width: 60%;   
+      height: 10rem;
+      width: 10rem;   
       padding-top: 5%;
       margin: 1%;
   }
-
 
   

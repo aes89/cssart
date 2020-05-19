@@ -8,6 +8,42 @@
   --transition-speed: 600ms;
 }
 
+header {
+  position: absolute;
+  margin-left: 5%;
+  top: 10%;
+}
+
+@-webkit-keyframes headerline {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 150%;
+  }
+}
+
+@keyframes headerline {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 150%;
+  }
+}
+
+.headerline {
+  position: absolute;
+  background-color: black;
+  width: 150%;
+  height: 1px;
+  left: -10%;
+  -webkit-animation-name: headerline;
+          animation-name: headerline;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
 body {
   background: #f6c947;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #fcd971), to(#faf3a4));
@@ -67,8 +103,8 @@ footer {
 }
 
 .socials_images {
-  height: 60%;
-  width: 60%;
+  height: 10rem;
+  width: 10rem;
   padding-top: 5%;
   margin: 1%;
 }
