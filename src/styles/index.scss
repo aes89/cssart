@@ -81,7 +81,6 @@ nav {
     background: #02200a;
     min-width: 13%;
     height: 45vh;
-    -webkit-transition: width 600ms ease;
     transition: width 600ms ease;
     right: 0px;
     top: 30vh;
@@ -142,4 +141,41 @@ li {
     object-fit: contain;
 }
 
-  
+@media (min-width: 600px) {
+    nav {
+            position: fixed;
+            color: white;
+            font-weight: bold;
+            background: #02200a;
+            width: 50vw;
+            height: 7vh;
+            right: 0px;
+            top: 27vh;
+            padding: 0;
+            margin: 0;
+        }
+          
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            text-align: left;
+            align-content: center;
+          }
+        
+        li {  
+            border-radius: 10%;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90%;
+            width: 90%;
+            position: relative;
+        }        
+}
