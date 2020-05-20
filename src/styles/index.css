@@ -69,6 +69,9 @@ h2 {
 
 article {
   position: fixed;
+  top: 40%;
+  left: 10%;
+  width: 60V;
 }
 
 nav {

@@ -8,7 +8,7 @@
     --transition-speed: 600ms;
   }
 
-  body {
+body {
     background: rgb(246,201,71);
     background-image: linear-gradient(to bottom right, rgb(252, 217, 113) 40%, rgb(250, 243, 164));  
     background-attachment: fixed;
@@ -53,6 +53,10 @@ h2 {
 
 article {
     position: fixed;
+    top: 40%;
+    left: 10%;
+    width: 60V;
+
 }
 
 nav {
