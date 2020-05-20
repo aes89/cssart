@@ -78,31 +78,32 @@ nav {
     position: fixed;
     color: white;
     font-weight: bold;
-    background: #005704;
-    width: 13%;
+    background: #02200a;
+    min-width: 13%;
     height: 45vh;
+    -webkit-transition: width 600ms ease;
     transition: width 600ms ease;
     right: 0px;
-    top: 33vh;
+    top: 30vh;
+    padding: 2%;
 }
   
 .navbar-nav {
     list-style: none;
+    display: flex;
     padding: 0;
     margin: 0;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     text-align: left;
-    text-align: center;
     align-content: center;
   }
 
 li {  
     border-radius: 10%;
-    margin: 5%;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,11 +116,11 @@ li {
     align-content: center;    
     position: fixed;
     bottom: 2%;
-    width: 70%;
+    min-width: 55%;
     height: 7%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(0, 87, 4);
+    background-color: #02200a;
     color: white;
     text-align: center;
     display: flex;
