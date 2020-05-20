@@ -239,5 +239,9 @@ li {
     width: 90%;
     position: relative;
   }
+  h2 {
+    padding: 0;
+    margin-top: 5vh;
+  }
 }
 /*# sourceMappingURL=index.css.map */
