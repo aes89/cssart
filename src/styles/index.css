@@ -1,6 +1,4 @@
 :root {
-  font-size: 16px;
-  font-family: 'Open Sans';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: rgba(0, 110, 255, 0.774);
@@ -69,14 +67,14 @@ h2 {
 
 article {
   position: fixed;
-  top: 40%;
+  top: 50%;
   left: 10%;
   width: 60vw;
 }
 
 aside {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 10%;
   width: 60vw;
 }
@@ -84,40 +82,54 @@ aside {
 nav {
   position: fixed;
   color: #fcd971;
-  background: rgba(0, 110, 255, 0.774);
+  background: #006eff;
   width: 13%;
   height: 45vh;
   -webkit-transition: width 600ms ease;
   transition: width 600ms ease;
   right: 0px;
   top: 33vh;
-  border-radius: 0;
 }
 
 .navbar-nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-}
-
-.navbar:hover {
-  width: 16rem;
+  text-align: left;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 li {
-  border: solid black 2px;
   border-radius: 10%;
-  height: 50%;
-  width: 50%;
-  font-size: 3px;
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+  width: 90%;
+  position: relative;
 }
 
 footer {
@@ -127,7 +139,7 @@ footer {
   margin-right: 15%;
   width: 70%;
   height: 7%;
-  background-color: rgba(0, 110, 255, 0.774);
+  background-color: #006eff;
   color: white;
   text-align: center;
   display: -ms-inline-grid;
