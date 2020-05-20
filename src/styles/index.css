@@ -1,15 +1,15 @@
 :root {
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: rgba(0, 110, 255, 0.774);
-  --bg-secondary: #141418;
+  --text-primary: black;
+  --text-secondary: black;
+  --bg-primary: white;
+  --bg-secondary: #white;
   --transition-speed: 600ms;
 }
 
 body {
-  background: #f6c947;
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #fcd971), to(#faf3a4));
-  background-image: linear-gradient(to bottom right, #fcd971 40%, #faf3a4);
+  background: white;
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #f1efef), to(#b8b5b5));
+  background-image: linear-gradient(to bottom right, #f1efef 40%, #b8b5b5);
   background-attachment: fixed;
   color: black;
   background-color: white;
@@ -33,6 +33,19 @@ h2 {
   margin: 0;
   margin-top: 10%;
   padding-left: 0;
+}
+
+a {
+  color: #02200a;
+  font-weight: bold;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
 }
 
 @-webkit-keyframes headerline {
@@ -81,8 +94,9 @@ aside {
 
 nav {
   position: fixed;
-  color: #fcd971;
-  background: #006eff;
+  color: white;
+  font-weight: bold;
+  background: #005704;
   width: 13%;
   height: 45vh;
   -webkit-transition: width 600ms ease;
@@ -139,7 +153,7 @@ footer {
   margin-right: 15%;
   width: 70%;
   height: 7%;
-  background-color: #006eff;
+  background-color: #005704;
   color: white;
   text-align: center;
   display: -ms-inline-grid;
