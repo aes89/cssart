@@ -80,15 +80,14 @@ a:visited {
 
 article {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 10%;
   width: 60vw;
 }
 
 aside {
-  position: fixed;
-  top: 60%;
-  left: 10%;
+  position: relative;
+  padding-top: 10%;
   width: 60vw;
 }
 
@@ -120,30 +119,32 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   height: 100%;
   text-align: left;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
 }
 
-li {
+.navlist, .dropdown {
   border-radius: 10%;
-  padding: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 90%;
-  width: 90%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
   position: relative;
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
 }
 
 .footer {
@@ -200,6 +201,7 @@ li {
     top: 27vh;
     padding: 0;
     margin: 0;
+    z-index: 1;
   }
   .navbar-nav {
     list-style: none;
@@ -215,15 +217,16 @@ li {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     height: 100%;
     text-align: left;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    z-index: 1;
   }
-  li {
+  .navlist {
     border-radius: 10%;
     padding: 0;
     display: -webkit-box;
@@ -238,6 +241,27 @@ li {
     height: 90%;
     width: 90%;
     position: relative;
+    z-index: 1;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #02200a;
+    top: 80%;
+    min-width: 60%;
+    right: 0;
+    padding-top: 0;
+    z-index: 0;
+  }
+  .dropdown-content li {
+    padding: 1rem 0;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
   }
   h2 {
     padding: 0;
