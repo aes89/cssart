@@ -61,10 +61,11 @@ a:visited {
 }
 
 article {
-    position: fixed;
+    position: absolute;
     top: 40%;
     left: 10%;
     width: 60vw;
+    margin-top: 10%;
 }
 
 aside {
@@ -97,7 +98,20 @@ nav {
     height: 100%;
     text-align: left;
     align-content: flex-start;
-  }
+    a { color: white;
+        font-weight: bold;
+    }
+    a:active {
+        color: white;
+        border: 1px solid;
+    }
+
+    a:visited {
+        color: white;
+    }
+     
+}
+   
 
 .navlist, .dropdown {  
     border-radius: 10%;
