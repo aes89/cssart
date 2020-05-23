@@ -1,11 +1,3 @@
-:root {
-  --text-primary: black;
-  --text-secondary: black;
-  --bg-primary: white;
-  --bg-secondary: #white;
-  --transition-speed: 600ms;
-}
-
 body {
   background: white;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #f1efef), to(#b8b5b5));
