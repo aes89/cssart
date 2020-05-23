@@ -8,6 +8,10 @@ body {
     padding: 0;
 } 
 
+html, body {
+    height: 100%;
+  }
+  
 header {
     position: fixed;
     margin-left: 10%;
@@ -130,6 +134,7 @@ nav {
     color: white;
     text-align: center;
     display: flex;
+    margin-top: 10%;
 }
 
 .socials {
