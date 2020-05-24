@@ -1,4 +1,5 @@
-body {
+// overall page
+.body {
     background: white;
     background-image: linear-gradient(to bottom right, #f1efef 40%, #b8b5b5);
     background-attachment: fixed;
@@ -6,12 +7,11 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-}
-.body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+// page excluding footer
 .main {
     padding: 2rem 6rem 2rem 2rem;
     flex: 1;
@@ -20,7 +20,7 @@ h1, h5 {
     margin: 0;
     padding-left: 0;
 }
-h2 {
+.subheading {
     margin: 0;
     margin-top: 10%;
     padding-left: 0;
@@ -35,6 +35,7 @@ a:active {
 a:visited {
     color: blue;
 }
+// animation for bar
 @keyframes headerline {
     0% {
         width: 0%;
@@ -52,17 +53,21 @@ a:visited {
     animation-name: headerline;
     animation-duration: 5s;
 }
+// title script for pages
 .page-title {
     padding: 1rem 0;
 }
+// page main articles
 article {
     padding: 2rem 0;
 }
+// page secondary articles
 aside {
     position: relative;
     padding-top: 10%;
     width: 60vw;
 }
+// mobile side nav bar
 nav {
     position: fixed;
     color: white;
@@ -87,6 +92,7 @@ nav {
     height: 100%;
     text-align: left;
     align-content: flex-start;
+    // navbar links
     a {
         color: white;
         font-weight: bold;
@@ -103,6 +109,7 @@ nav {
         color: white;
    }
 }
+// mobile nav-list - dropdown feature hidden
 .navlist, .dropdown {
     border-radius: 10%;
     display: flex;
@@ -114,6 +121,7 @@ nav {
 .dropdown-content {
     display: none;
 }
+// layout for blog posts on mobile
 .blogpost {
     border: none;
     margin: 2%;
@@ -125,6 +133,7 @@ nav {
     max-height: 10rem;
     max-width: 80%;
 }
+// footer with social media links
 .footer {
     align-content: center;
     background-color: #02200a;
@@ -135,6 +144,7 @@ nav {
     text-align: center;
     display: flex;
 }
+// images for social media links and their containers
 .socials {
     align-content: center;
     display: flex;
@@ -148,6 +158,7 @@ nav {
     max-width: 100%;
     object-fit: contain;
 }
+// form formatting
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -172,13 +183,17 @@ input[type=submit]:hover {
     border: 3px solid #02200a;
     color: #02200a;
 }
+// responsiveness for tablet and web
 @media (min-width: 600px) {
+//   page excluding footer for tablet/web
     .main {
         padding: 2rem 2rem;
    }
+//  page main articles for tablet/web
     article {
         padding: 5rem 0;
    }
+//  top nav for tablet/web
     nav {
         color: white;
         font-weight: bold;
@@ -205,6 +220,7 @@ input[type=submit]:hover {
         align-content: flex-start;
         z-index: 1;
    }
+//   dropdown list on navbar for tablet/web
     .navlist {
         border-radius: 10%;
         padding: 0;
@@ -236,10 +252,12 @@ input[type=submit]:hover {
     .dropdown:hover .dropbtn {
         background-color: #3e8e41;
    }
-    h2 {
+//  subheading positioning for tablet/web 
+    .subheading {
         padding: 0;
         margin-top: 5vh;
    }
+//  blogpost positioning for tablet/web
     .blogpost {
         border-bottom: #02200a solid 2px;
         margin: 2%;
@@ -270,6 +288,7 @@ input[type=submit]:hover {
         grid-area: 2 / 2 / span 1 / span 1;
         padding-top: 20%;
    }
+//    footer width for for tablet/web
     .footer {
         max-width: 70%;
    }
