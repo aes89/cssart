@@ -19,8 +19,11 @@ Link hovers to show when active:
 <br /><img src="/docs/buttoninactive.png" height="100" /><img src="/docs/buttonactivestate.png" height="100" />
 <br /><img src="/docs/footerinactive.png" height="100" /><img src="/docs/footeractivestate.png" height="100" />
 
+Dropdown on web:
+<br /><img src="/docs/blogdropdown.png" height="200" />
+
 Dropdown hidden on mobile:
-<br /><img src="/docs/blogdropdown.png" height="200" /><img src="/docs/dropdownhiddenmobile.png" height="200" />
+<img src="/docs/dropdownhiddenmobile.png" height="200" />
 
 ### Sitemap
 <img src="/docs/sitemap.jpeg" height="500" />
