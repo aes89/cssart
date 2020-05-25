@@ -23,7 +23,7 @@ Dropdown on web:
 <br /><img src="/docs/blogdropdown.png" height="200" />
 
 Dropdown hidden on mobile:
-<img src="/docs/dropdownhiddenmobile.png" height="200" />
+<br /><img src="/docs/dropdownhiddenmobile.png" height="200" />
 
 ### Sitemap
 <img src="/docs/sitemap.jpeg" height="500" />
