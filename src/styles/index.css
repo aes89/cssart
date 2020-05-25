@@ -194,7 +194,7 @@ nav {
 }
 
 .blogpost {
-  border: none;
+  border-bottom: #02200a solid 2px;
   margin: 2%;
   -ms-flex-line-pack: start;
       align-content: flex-start;
