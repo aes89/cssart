@@ -25,7 +25,7 @@ Hover dropdown on web:
 Dropdown hidden on mobile/non-functional on tablet:
 <br /><img src="/docs/dropdownhiddenmobile.png" height="200" />
 
-Additional features can be found in /presentation/Presentation.pptx (above) or by clicking <a href="presentation/Presentation.pptx">here</a>.
+Additional features can be found in /presentation/Presentation.pptx (above) or by clicking <a href="presentation">here</a>.
 
 ## Sitemap
 <img src="/docs/sitemap.jpeg" height="500" />
