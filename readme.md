@@ -10,13 +10,13 @@ To showcase my HTML/CSS abilities.
 
 ### Functionality / Features / Screenshots
 Mobile responsiveness:
-<img src="/docs/indexmobile.png" height="100" />
+<br><img src="/docs/indexmobile.png" height="150" />
 
 Tablet/wed responsiveness:
-![](/docs/indexwebtablet.png)
+<br><img src="/docs/indexwebtablet.png" height="150" />
 
 ### Sitemap
-![](/docs/sitemap.jpeg)
+<img src="/docs/sitemap.jpeg" height="300" />
 
 ### Target audience
 Potential employers and assessment graders.
