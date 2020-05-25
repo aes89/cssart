@@ -8,7 +8,7 @@ https://github.com/aes89/aes89.github.io
 ## Purpose
 To showcase my HTML/CSS abilities.
 
-## Functionality / Features / Screenshots
+###Functionality / Features / Screenshots
 Mobile responsiveness:
 <br /><img src="/docs/indexmobile.png" height="200" />
 
