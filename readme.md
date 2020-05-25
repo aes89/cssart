@@ -10,13 +10,16 @@ To showcase my HTML/CSS abilities.
 
 ### Functionality / Features / Screenshots
 Mobile responsiveness:
-<br><img src="/docs/indexmobile.png" height="150" />
+<br><img src="/docs/indexmobile.png" height="200" />
 
-Tablet/wed responsiveness:
-<br><img src="/docs/indexwebtablet.png" height="150" />
+Tablet/web responsiveness:
+<br><img src="/docs/indexwebtablet.png" height="200" />
+
+Link hovers to show when active:
+<br><img src="/docs/buttoninactive.png" height="200" /><img src="/docs/buttonactivestate.png" height="200" />
 
 ### Sitemap
-<img src="/docs/sitemap.jpeg" height="300" />
+<img src="/docs/sitemap.jpeg" height="500" />
 
 ### Target audience
 Potential employers and assessment graders.
