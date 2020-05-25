@@ -174,10 +174,15 @@ nav {
     align-content: center;
     display: flex;
     flex: 1;
-}
+   }
 .socials a {
     display: flex;
     max-width: 100%;
+}
+.socials a:hover {
+    display: flex;
+    max-width: 100%;
+    border : solid white 2px;
 }
 .socials_images {
     max-width: 100%;
