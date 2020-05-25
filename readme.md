@@ -6,10 +6,14 @@ https://aes89.github.io/
 https://github.com/aes89/aes89.github.io
 
 ### Purpose
-
+To showcase my HTML/CSS abilities.
 
 ### Functionality / Features / Screenshots
+Mobile responsiveness:
+![](/docs/indexmobile.jpeg)
 
+Tablet/wed responsiveness:
+![](/docs/indexwebtablet.jpeg)
 
 ### Sitemap
 ![](/docs/sitemap.jpeg)
