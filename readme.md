@@ -16,7 +16,7 @@ Tablet/web responsiveness:
 <br><img src="/docs/indexwebtablet.png" height="200" />
 
 Link hovers to show when active:
-<br><img src="/docs/buttoninactive.png" height="200" /><img src="/docs/buttonactivestate.png" height="200" />
+<br><img src="/docs/buttoninactive.png" height="100" /><img src="/docs/buttonactivestate.png" height="100" /><img src="/docs/footerinactive.png" height="100" /><img src="/docs/footeractivestate.png" height="100" />
 
 ### Sitemap
 <img src="/docs/sitemap.jpeg" height="500" />
