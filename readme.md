@@ -10,10 +10,10 @@ To showcase my HTML/CSS abilities.
 
 ### Functionality / Features / Screenshots
 Mobile responsiveness:
-![](/docs/indexmobile.jpeg)
+![](/docs/indexmobile)
 
 Tablet/wed responsiveness:
-![](/docs/indexwebtablet.jpeg)
+![](/docs/indexwebtablet)
 
 ### Sitemap
 ![](/docs/sitemap.jpeg)
