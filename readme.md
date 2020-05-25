@@ -8,17 +8,14 @@ https://github.com/aes89/aes89.github.io
 ### Purpose
 
 
-### Functionality / features
+### Functionality / Features / Screenshots
 
 
 ### Sitemap
 ![](/docs/sitemap.jpeg)
 
-### Screenshots
-
-
 ### Target audience
-Potential employers.
+Potential employers and assessment graders.
 
 ### Tech stack (e.g. html, css, deployment platform, etc)
 - HTML
