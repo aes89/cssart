@@ -40,7 +40,7 @@ a {
   font-weight: bold;
 }
 
-a:active {
+a:hover {
   color: blue;
 }
 
