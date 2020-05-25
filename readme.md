@@ -10,7 +10,7 @@ To showcase my HTML/CSS abilities.
 
 ### Functionality / Features / Screenshots
 Mobile responsiveness:
-![](/docs/indexmobile.png)
+![](/docs/indexmobile.png =100)
 
 Tablet/wed responsiveness:
 ![](/docs/indexwebtablet.png)
